@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Roberto Baggio Il divino Codino"/>
+    <title>fakeBlog</title>
+</head>
+
+<body>
+    <h1>Roberto Baggio Il Divino Codino</h1>
+    <h3>Breve Fake Blog del futbolista italiano</h3>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/ROBERTO_BAGGIO_LANEROSSI_VICENZA_BIANCOROSSO.jpg/256px-ROBERTO_BAGGIO_LANEROSSI_VICENZA_BIANCOROSSO.jpg" alt="Roberto Baggio Volea">
+    <p>Roberto Baggio (Caldogno, Vicenza; 18 de febrero de 1967) es un exfutbolista italiano que jugaba como delantero.​ Considerado uno de los mejores futbolistas de la historia del fútbol, con la Squadra Azzurra obtuvo el tercer lugar en el mundial Italia 1990 y el subcampeonato en el mundial Estados Unidos 1994. En 1993 ganó el Premio RSS al mejor futbolista del año, el Balón de Oro de Europa y el Premio FIFA World Player.</p>
+
+    <p>La revista especializada World Soccer Magazine lo incluyó en el número 16 de su lista de los mejores jugadores del siglo XX y Pelé lo citó en 2004 en su lista FIFA 100 de los mejores futbolistas vivos.​Es además uno de los 50 jugadores más votados como el mejor futbolista del siglo4​ en todos los rankings históricos que se hicieron al finalizar el siglo XX.</p>
+        
+    <p>Baggio jugaba de segundo punta, se destacó por su técnica, su predilección por el fútbol de toque y su juego alegre e imaginativo. Con gran facilidad para el gol, ha anotado 314 goles oficiales, 27 de ellos con la selección de su país por lo que es el quinto máximo goleador de la historia de la Selección Italiana.</p>
+
+    <table>
+        <h2>Rachas goleadoras</h2>
+        <thead>
+			<tr>
+				<th>Equipo</th>
+				<th>Temporada</th>
+				<th>Goles</th>
+			</tr>
+            <tbody>
+                <tr>
+                    <td>Brescia</td>
+                    <td>2000-1004</td>
+                    <td>46</td>
+                    
+                </tr>
+                <tr>
+                    <td>Juventus</td>
+                    <td>1990-1995</td>
+                    <td>115</tr>
+                    
+                </tr>
+                <tr>
+                    <td>Fiorentina</td>
+                    <td>1985-1990</td>
+                    <td>55</td>
+                    
+                </tr>
+		</thead>
+
+    </table>
+    <a href="http://www.youtube.com/watch?v=CUn5VaUbxZo">Top 10 goles de Roberto Baggio</a>
+    <br>
+
+        <h3>Porfavor, contesta esta breve encuesta<h3>
+         <form action="">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name=Email>
+            <br>
+
+            <input type="radio" id="si" name="si" value="si">
+            <label for="si">Si, enviame montones de correos</label>
+            <br>
+
+            <input type="radio" id="no" value="No">
+            <label for="No">No</label>
+            
+        <p>¿Cómo supiste de nosotros?</p>
+             <input type="checkbox" id="Facebook" name="Noticia" value="Facebook">    
+            <label for="Facebook">Facebook</label>
+            <br>
+            <input type="checkbox" id="El diario" name="Noticia" value="Eld diario">
+            <label for="El diairio">El diario</label>
+            <br>
+            <input type="checkbox" id="Un contacto" name="Noticia" value="Un contacto">
+            <label for="Un contacto">Un amigo</label>
+            <br>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+</body>
+</html>
