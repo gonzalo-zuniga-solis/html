@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <meta name="descripcion" content="RegistrationForm">
+</head>
+
+<body>
+    <h1>Mi formulario de registro</h1>
+    <ul>
+        <li><label for="nombre">Nombre:</label></li>
+        <input type="text" id="nombre" name=Nombre>
+        
+        <li><label for="apellido">Apellido:</label></li>
+        <input type="text" id="apellido" name=Apellido>
+        
+        <li><label for="email">Email:</label></li>
+        <input type="text" id="email" name=Email>
+        
+        <li><label for="password">Contraseña:</label></li>
+        <input type="password" id="password" name=password>
+        
+        <li><label for="pw_confirm">Confirmar contraseña:</label></li>
+        <input type="password" id="pw_confirm" name="password_confirmation">
+       
+        <li><label for="start">Cumpleaños:</label></li>
+        <input type="date" id="start" name="trip-start"
+                   value="1950-01-01"
+                   min="1900-01-01" max="2020-12-31">
+        
+        <li><p>Género</p></li>        
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="femeninocopy" name="genero" value="Femenino">
+        <label for="prefiero-no-decir">Prefiero no decir</label>
+        <input type="radio" id="prefiero-no-decir" name="genero" value="prefiero-no-decir">
+
+        <p>Una breve descripción de ti</p>
+        <textarea name="description" id="" cols="30" rows="10"></textarea>
+        
+        <p>Lenguaje de programación favorito</p>
+        <select name="lenguaje">
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="javaScript">javascript</option>
+            <option value="C">C</option>
+            <option value="Ruby">Ruby</option>
+        </select>
+    </ul>
+    <input type="submit" value="Enviar">
+</body>
+</html>
